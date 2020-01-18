@@ -1,0 +1,6 @@
+<%= form_for @user do |f| %>
+<%= f.label "upload your superhero friend photo" %>
+<%= f.file_field :friends, multiple: true, direct_upload: true %>
+<%= f.submit %>
+<% end %>
+
