@@ -52,3 +52,10 @@
 input[type=file][data-direct-upload-url][disabled] {
   display: none;
 }
+
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
