@@ -8,7 +8,8 @@ class PagesController < ApplicationController
   # @user.avatar.attach(params[:avatar])
 
   # For Array of images to has_many_attached
-  params[:friends].each do |friend|
-    @user.friends.attach(friend)
+    params[:friends].each do |friend|
+      @user.friends.attach(friend)
+    end
   end
 end
